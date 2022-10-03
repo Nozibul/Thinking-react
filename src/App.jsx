@@ -12,7 +12,7 @@ const task = [
         createAt:'2022-09-06T05:05:05.510Z',
         tags:[ 
             {
-                id:'tag-1', //jhekane array  thakbe or array of object thakbe sekhane id lagbe
+                id:'tag-1', 
                 text:'It is Done ',
                 icon: 'T'
             },
@@ -80,7 +80,7 @@ const task = [
         createAt:'2022-09-06T05:05:05.510Z',
         tags:[ 
             {
-                id:'tag-1', // jhekane array  thakbe or array of object thakbe sekhane id lagbe
+                id:'tag-1', 
                 text:'It is Done ',
                 icon: 'T'
             },
@@ -129,7 +129,7 @@ const task = [
         createAt:'2022-09-06T05:05:05.510Z',
         tags:[ 
             {
-                id:'tag-1', // jhekane array  thakbe or array of object thakbe sekhane id lagbe
+                id:'tag-1', 
                 text:'It is Done ',
                 icon: 'T'
             },
@@ -178,7 +178,7 @@ function getDay (dateStr){
 //    console.log(date); // 2
    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'] ;
    //    console.log(days[date])// tuesday
-      return days[date]; // days array te 2 no index e day ta pabo
+      return days[date]; 
 }
 
 function formatDate(dateStr){
@@ -213,11 +213,7 @@ const Comment = ({comment})=>{
     )
 }
 
-
-
 const App = () => {
-
-
   return (
     <> Todo App
        <div className='card-group'>
