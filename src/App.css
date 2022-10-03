@@ -1,0 +1,14 @@
+
+.day-card{
+    width: 300px;
+    padding-inline-start: 1rem;
+    background-color: antiquewhite;
+    border-radius: 0.25rem;
+    box-sizing: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-group{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
